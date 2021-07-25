@@ -1,3 +1,9 @@
 #!/bin/sh
 
-echo vol $(pamixer --get-volume-human)
+volume="$(pamixer --get-volume-human)"
+
+if [ "$volume" = "muted" ]; then
+	echo  
+else 
+	echo   $volume
+fi
