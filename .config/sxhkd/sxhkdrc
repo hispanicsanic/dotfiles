@@ -28,29 +28,19 @@ alt + Print
 super + Print
 	scrot --select -e 'xclip -selection clipboard -t image/png -i $f' ~/.cache/screenshots/screenshot.png
 
-
-### backlght controls ###
-
-# increase brightness
-
-
-# decrease brightness
-
-
-
 ### volume controls ###
 
 # increase volume
 XF86AudioRaiseVolume
-    pactl set-sink-volume 0 +5%; pkill -RTMIN+10 dwmblocks 
+	pamixer -i 5; pkill -RTMIN+10 dwmblocks
 
 # decrease volume
 XF86AudioLowerVolume
-    pactl set-sink-volume 0 -5%; pkill -RTMIN+10 dwmblocks
+	pamixer -d 5; pkill -RTMIN+10 dwmblocks
 
 # mute volume 
 XF86AudioMute
-    pactl set-sink-mute 0 toggle; pkill -RTMIN+10 dwmblocks
+	pamixer -t; pkill -RTMIN+10 dwmblocks
 
 
 ### media keys ###
@@ -90,7 +80,7 @@ super + Return
 
 # file manager
 super + e
-	pcmanfm
+	thunar
 
 # firefox
 super + b
@@ -114,7 +104,3 @@ super + p
 # dmenu
 super + d
 	dmenu_run
-
-# cmatrix
-super + shift + o
-	exec /usr/bin/kitty -e cmatrix
