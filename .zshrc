@@ -6,6 +6,14 @@ setopt COMPLETE_ALIASES
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh                                          
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh                                  
                                                                                                                    
+#history                                                                                                           
+HISTFILE="$HOME/.zsh_history"                                                                                      
+HISTSIZE=10000                                                                                                     
+SAVEHIST=10000                                                                                                     
+setopt HIST_IGNORE_ALL_DUPS                                                                                        
+setopt HIST_FIND_NO_DUPS                                                                                           
+                                                                                                                   
+                                                                                                                   
 #title                                                                                                             
 echo -n -e "\033]0;kitty\007"                                                                                      
                                                                                                                    
@@ -40,7 +48,7 @@ alias dwmedit='nvim ~/.local/src/dwm/config.h'
 alias cleanup='sudo pacman -Rs $(pacman -Qqdt)'                                                                    
 alias update='yay -Syu'                                                                                            
                                                                                                                    
-alias ls='ls --color=auto'                                                                                         
+alias ls='ls --color=auto'                                                                                                                                                                              
 alias cp='cp -r'                                                                                                   
 alias rm='rm -rf'                                                                                                  
 alias rn='mv -i'
