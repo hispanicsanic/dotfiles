@@ -1,0 +1,45 @@
+# reload sxhkd
+super + escape
+	pkill -USR1 -x sxhkd
+
+### screenshots ###
+
+# regular screenshot
+Print
+	scrot ~/pictures/screenshots/screenshot.png
+
+# screenshot to clipboard
+shift + Print
+	scrot -e 'xclip -selection clipboard -t image/png -i $f' ~/.cache/screenshots/screenshot.png
+
+# window screenshot to clipboard
+alt + Print
+	scrot -ube 'xclip -selection clipboard -t image/png -i $f' ~/.cache/screenshots/screenshot.pn    g
+
+# select screenshot to clipboard
+super + Print
+	scrot --select -e 'xclip -selection clipboard -t image/png -i $f' ~/.cache/screenshots/screen    shot.png
+
+
+### media keys ###
+
+# play/pause
+super + F1
+	playerctl --player=mpd play-pause
+
+# previous
+super + F2
+	playerctl --player=mpd previous
+
+# next
+super + F3
+	playerctl --player=mpd next
+
+# stop
+super + F4
+	playerctl --player=mpd stop
+
+
+# ncmpcpp
+super + p
+	exec /usr/bin/kitty -e ncmpcpp

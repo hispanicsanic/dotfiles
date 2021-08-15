@@ -7,7 +7,7 @@ super + shift + Delete
 	bash ~/.local/bin/logout-menu.sh
 
 # lock
-super + Delete
+super + l
 	xlock -mode rain
 
 ### screenshots ###
@@ -94,6 +94,7 @@ super + c
 super + g
 	steam
 
+# multimc
 super + shift + g
 	multimc
 
@@ -104,3 +105,7 @@ super + p
 # dmenu
 super + d
 	dmenu_run
+
+# notes
+super + n
+	exec /usr/bin/kitty -e nvim ~/college/year-2/index.wiki

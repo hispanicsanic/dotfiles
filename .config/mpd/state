@@ -1,8 +1,8 @@
-sw_volume: 20
+sw_volume: 40
 audio_device_state:1:pulse audio
 state: stop
-current: 21
-random: 1
+current: 36
+random: 0
 repeat: 0
 single: 0
 consume: 0
@@ -37,15 +37,22 @@ playlist_begin
 24:Twenty One Pilots - Blurryface/Message Man.mp3
 25:Twenty One Pilots - Blurryface/Hometown.mp3
 26:Twenty One Pilots - Blurryface/Not Today.mp3
-27:Lovejoy - Are You Alright?/Taunt.mp3
-28:Lovejoy - Are You Alright?/One Day.mp3
-29:Lovejoy - Are You Alright?/Sex Sells.mp3
-30:Lovejoy - Are You Alright?/Cause for Concern.mp3
-31:dodie - Build A Problem/Hate Myself.mp3
-32:dodie - Build A Problem/Four Tequilas Down.mp3
-33:dodie - Build A Problem/Guiltless.mp3
-34:dodie - Build A Problem/in the bed.mp3
-35:dodie - Build A Problem/I Kissed Someone (It Wasn't You).mp3
-36:La La Land Cast - La La Land OST/Another Day of Sun.mp3
-37:La La Land Cast - La La Land OST/Someone In The Crowd.mp3
+27:Twenty One Pilots - Trench/Morph.mp3
+28:Twenty One Pilots - Trench/My Blood.mp3
+29:Twenty One Pilots - Trench/Chlorine.mp3
+30:Twenty One Pilots - Trench/Smithereens.mp3
+31:Twenty One Pilots - Trench/The Hype.mp3
+32:Twenty One Pilots - Trench/Nico And The Niners.mp3
+33:Twenty One Pilots - Trench/Cut My Lip.mp3
+34:Lovejoy - Are You Alright?/Taunt.mp3
+35:Lovejoy - Are You Alright?/One Day.mp3
+36:Lovejoy - Are You Alright?/Sex Sells.mp3
+37:Lovejoy - Are You Alright?/Cause for Concern.mp3
+38:dodie - Build A Problem/Hate Myself.mp3
+39:dodie - Build A Problem/Four Tequilas Down.mp3
+40:dodie - Build A Problem/Guiltless.mp3
+41:dodie - Build A Problem/in the bed.mp3
+42:dodie - Build A Problem/I Kissed Someone (It Wasn't You).mp3
+43:La La Land Cast - La La Land OST/Another Day of Sun.mp3
+44:La La Land Cast - La La Land OST/Someone In The Crowd.mp3
 playlist_end
