@@ -1,8 +1,7 @@
-sw_volume: 40
+sw_volume: 20
 audio_device_state:1:pulse audio
 state: stop
-current: 36
-random: 0
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -19,40 +18,24 @@ playlist_begin
 6:Fall Out Boy - M A N I A/The Last Of The Real Ones.mp3
 7:Fall Out Boy - M A N I A/Hold Me Tight Or Don't.mp3
 8:Fall Out Boy - M A N I A/Wilson (Expensive Mistakes).mp3
-9:Twenty One Pilots - Vessel/House of Gold.mp3
-10:Twenty One Pilots - Vessel/Car Radio.mp3
-11:Twenty One Pilots - Vessel/Semi-Automatic.mp3
-12:Twenty One Pilots - Vessel/Fake You Out.mp3
-13:Twenty One Pilots - Vessel/Kitchen Sink.mp3
-14:Twenty One Pilots - Vessel/Lovely.mp3
-15:Twenty One Pilots - Vessel/Forest.mp3
-16:Twenty One Pilots - Blurryface/Heavydirtysoul.mp3
-17:Twenty One Pilots - Blurryface/Ride.mp3
-18:Twenty One Pilots - Blurryface/Fairly Local.mp3
-19:Twenty One Pilots - Blurryface/Tear In My Heart.mp3
-20:Twenty One Pilots - Blurryface/Lane Boy.mp3
-21:Twenty One Pilots - Blurryface/The Judge.mp3
-22:Twenty One Pilots - Blurryface/Polarize.mp3
-23:Twenty One Pilots - Blurryface/We Don't Believe What's On TV.mp3
-24:Twenty One Pilots - Blurryface/Message Man.mp3
-25:Twenty One Pilots - Blurryface/Hometown.mp3
-26:Twenty One Pilots - Blurryface/Not Today.mp3
-27:Twenty One Pilots - Trench/Morph.mp3
-28:Twenty One Pilots - Trench/My Blood.mp3
-29:Twenty One Pilots - Trench/Chlorine.mp3
-30:Twenty One Pilots - Trench/Smithereens.mp3
-31:Twenty One Pilots - Trench/The Hype.mp3
-32:Twenty One Pilots - Trench/Nico And The Niners.mp3
-33:Twenty One Pilots - Trench/Cut My Lip.mp3
-34:Lovejoy - Are You Alright?/Taunt.mp3
-35:Lovejoy - Are You Alright?/One Day.mp3
-36:Lovejoy - Are You Alright?/Sex Sells.mp3
-37:Lovejoy - Are You Alright?/Cause for Concern.mp3
-38:dodie - Build A Problem/Hate Myself.mp3
-39:dodie - Build A Problem/Four Tequilas Down.mp3
-40:dodie - Build A Problem/Guiltless.mp3
-41:dodie - Build A Problem/in the bed.mp3
-42:dodie - Build A Problem/I Kissed Someone (It Wasn't You).mp3
-43:La La Land Cast - La La Land OST/Another Day of Sun.mp3
-44:La La Land Cast - La La Land OST/Someone In The Crowd.mp3
+9:Twenty One Pilots - Vessel/Fake You Out.mp3
+10:Twenty One Pilots - Vessel/Kitchen Sink.mp3
+11:Twenty One Pilots - Vessel/Lovely.mp3
+12:Twenty One Pilots - Vessel/Forest.mp3
+13:Twenty One Pilots - Blurryface/Heavydirtysoul.mp3
+14:Twenty One Pilots - Blurryface/Ride.mp3
+15:Twenty One Pilots - Blurryface/Fairly Local.mp3
+16:Twenty One Pilots - Blurryface/Lane Boy.mp3
+17:Twenty One Pilots - Blurryface/Polarize.mp3
+18:Twenty One Pilots - Blurryface/Message Man.mp3
+19:Twenty One Pilots - Blurryface/Hometown.mp3
+20:Twenty One Pilots - Blurryface/Not Today.mp3
+21:Twenty One Pilots - Trench/Morph.mp3
+22:Twenty One Pilots - Trench/My Blood.mp3
+23:Twenty One Pilots - Trench/Chlorine.mp3
+24:Twenty One Pilots - Trench/The Hype.mp3
+25:Twenty One Pilots - Trench/Nico And The Niners.mp3
+26:Twenty One Pilots - Trench/Cut My Lip.mp3
+27:La La Land Cast - La La Land OST/Another Day of Sun.mp3
+28:La La Land Cast - La La Land OST/Someone In The Crowd.mp3
 playlist_end
